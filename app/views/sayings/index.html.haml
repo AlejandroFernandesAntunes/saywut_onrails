@@ -1,0 +1,11 @@
+= form_for @saying do |form|
+  %h1 SayWut?
+  .field
+    = form.text_field :wut,
+      autofocus: true
+  %h2 SezWho?
+  .field
+    = form.text_field :who,
+      autofocus: true
+  .actions
+    = form.submit 'Spread the Word'

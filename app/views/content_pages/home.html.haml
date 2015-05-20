@@ -1,32 +1,8 @@
-%nav.top-bar{"data-topbar" => "", :role => "navigation"}
-  %ul.title-area
-    %li.name
-      %h1
-        %a{:href => "#"} My Site
-    / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-    %li.toggle-topbar.menu-icon
-      %a{:href => "#"}
-        %span Menu
-  %section.top-bar-section
-    / Right Nav Section
-    %ul.right
-      %li.active
-        %a{:href => "#"} Right Button Active
-      %li.has-dropdown
-        %a{:href => "#"} Right Button Dropdown
-        %ul.dropdown
-          %li
-            %a{:href => "#"} First link in dropdown
-          %li.active
-            %a{:href => "#"} Active link in dropdown
-    / Left Nav Section
-    %ul.left
-      %li
-        %a{:href => "#"} Left Nav Button
-%p Mutant Ninja Turtles !!
-
-%footer.row
-%section.small-4.columns
-  Copyright 2013
-%section.small-8.columns
-  All rights reserved.
+%html
+  %head
+    %title SayWut | Straightforward Hadron-colliding Super-slinky Quote Generator
+    %meta{ content: 'True', name: 'HandheldFriendly' }
+    %meta{ content: '320', name: 'MobileOptimized' }
+    %meta{ content: 'width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0', name: 'viewport' }
+    %body
+    = yield

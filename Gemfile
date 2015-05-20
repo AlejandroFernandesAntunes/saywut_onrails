@@ -64,3 +64,4 @@ gem 'rubocop'
 gem 'scss-lint'
 
 gem 'rails_12factor', group: :production
+gem 'slack-post', '>= 0.3.2'
